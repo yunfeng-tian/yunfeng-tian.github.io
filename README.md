@@ -21,7 +21,17 @@ Minimal English marketing site for [LicenseDesktop — Offline License Managemen
 
 - GitHub username resolved: `yunfeng-tian` — download links point to `yunfeng-tian/yunfeng-tian.github.io` releases.
 - `https://checkout.creem.io/your-product` in `pricing.html` → real Creem checkout URL after review.
-- `#screens` section in `index.html` → product screenshots.
+- Product screenshots in `index.html` — place 3 PNGs in `assets/img/screenshots/`:
+  - `main.png` — main dashboard
+  - `licenses.png` — license management (issue/list)
+  - `purchase.png` — purchase / activation page
+
+## Screenshots (how to take)
+
+1. Run the app (LicenseDesktop), log in.
+2. Use Windows screenshot: **Win + Shift + S** (or PrtScn) to capture the relevant window.
+3. Save as PNG with the exact names above into `website/assets/img/screenshots/` and upload to the repo.
+4. Suggested captures: main dashboard (workbench), license list / issue page, purchase / about page.
 
 ## Deploy steps
 

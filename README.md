@@ -8,23 +8,27 @@ Minimal English marketing site for [LicenseDesktop — Offline License Managemen
 
 | File | Purpose |
 |---|---|
-| `index.html` | Product intro, features, screenshots placeholder |
-| `pricing.html` | USD pricing (Basic $49 / Professional $99 / Enterprise $149, M12) |
+| `index.html` | Product intro, features, screenshots, SEO (JSON-LD structured data) |
+| `pricing.html` | USD pricing (Basic $49 / Professional $99 / Enterprise $149, M12) with real Creem checkout links |
 | `privacy.html` | Privacy Policy |
 | `terms.html` | Terms of Service / software license terms |
-| `download.html` | Windows download (links to GitHub Releases) |
+| `download.html` | Windows download (GitHub Releases; "coming soon" until first public release) |
+| `faq.html` | Frequently asked questions |
+| `contact.html` | Contact (email support) |
 | `assets/site.css` | Shared styles (zero-dependency) |
+| `assets/favicon.svg` | Site favicon |
 | `CNAME` | Custom domain `chengyoung.com` |
+| `robots.txt` / `sitemap.xml` | SEO |
 | `404.html` | Not-found page |
 
-## Placeholders to replace before going live
+## Status
 
-- GitHub username resolved: `yunfeng-tian` — download links point to `yunfeng-tian/yunfeng-tian.github.io` releases.
-- `https://checkout.creem.io/your-product` in `pricing.html` → real Creem checkout URL after review.
-- Product screenshots in `index.html` — place 3 PNGs in `assets/img/screenshots/`:
-  - `main.png` — main dashboard
-  - `licenses.png` — license management (issue/list)
-  - `purchase.png` — purchase / activation page
+- Creem checkout links: **live** — the three plan buttons in `pricing.html` point to real product
+  checkout URLs on `creem.io` (Basic / Professional / Enterprise).
+- Download buttons: **coming soon** until the first public release (0.9/1.0). When releasing, point
+  the two buttons to the real GitHub Releases URL and fill `resources/update.config.json`
+  `manual_download_url` with the same download location.
+- Product screenshots: **in place** (`main.png`, `licenses.png`, `purchase.png`).
 
 ## Screenshots (how to take)
 

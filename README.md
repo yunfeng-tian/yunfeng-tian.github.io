@@ -2,7 +2,7 @@
 
 Bilingual marketing site for [LicenseDesktop — Offline License Management System](https://chengyoung.com): English at the site root and Simplified Chinese under `/zh/`, hosted on GitHub Pages.
 
-> Status: minimal set for **Creem account review** (2026-08-31). Aligned with `docs/合规路径-1.0.md` + `docs/建站部署指南.md` + `docs/施工蓝图-50-建站与Creem过审.md`.
+> Static marketing site for [chengyoung.com](https://chengyoung.com) — English (root) + Simplified Chinese (`/zh/`). Deployed on GitHub Pages.
 
 ## Pages
 
@@ -41,4 +41,8 @@ Bilingual marketing site for [LicenseDesktop — Offline License Management Syst
 
 ## Deploy steps
 
-See `../docs/建站部署指南.md` §3-§5 (GitHub Pages + DNS + email). Upload all files to the **repo root of `yunfeng-tian/yunfeng-tian.github.io`** (user homepage repo, already created). `chengyoung.com` stays on GitHub Pages (overseas) with **no ICP filing**; if the project is later incorporated, a separate `chengyoung.cn` site would be created independently (see `../docs/官网优化方案-v1.1.md`).
+1. Push all files in this directory to the **repo root** of `yunfeng-tian/yunfeng-tian.github.io` (the user-homepage repo).
+2. Keep `CNAME` (= `chengyoung.com`) at the repo root so GitHub Pages serves the custom domain.
+3. Repo → Settings → Pages: **Source** = Deploy from a branch (`main` / root); set **Custom domain** = `chengyoung.com` and enable **Enforce HTTPS**.
+4. DNS: point `chengyoung.com` at the GitHub Pages Anycast IPs (`185.199.108.153` … `185.199.111.153`), then confirm the site resolves over HTTPS.
+5. `chengyoung.com` stays on GitHub Pages (overseas) with **no ICP filing**. If the project is later incorporated, a separate `chengyoung.cn` site would be created independently.

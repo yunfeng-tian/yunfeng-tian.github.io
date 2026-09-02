@@ -32,17 +32,10 @@ Bilingual marketing site for [LicenseDesktop — Offline License Management Syst
 - Product screenshots: **in place** (`main.png`, `licenses.png`, `purchase.png`).
 - Chinese site: **live** at `/zh/` — all 7 pages in Simplified Chinese, with `hreflang` alternates and a language switcher (中文 / English) in the nav on every page.
 
-## Screenshots (how to take)
-
-1. Run the app (LicenseDesktop), log in.
-2. Use Windows screenshot: **Win + Shift + S** (or PrtScn) to capture the relevant window.
-3. Save as PNG with the exact names above into `website/assets/img/screenshots/` and upload to the repo.
-4. Suggested captures: main dashboard (workbench), license list / issue page, purchase / about page.
-
 ## Deploy steps
 
 1. Push all files in this directory to the **repo root** of `yunfeng-tian/yunfeng-tian.github.io` (the user-homepage repo).
 2. Keep `CNAME` (= `chengyoung.com`) at the repo root so GitHub Pages serves the custom domain.
 3. Repo → Settings → Pages: **Source** = Deploy from a branch (`main` / root); set **Custom domain** = `chengyoung.com` and enable **Enforce HTTPS**.
 4. DNS: point `chengyoung.com` at the GitHub Pages Anycast IPs (`185.199.108.153` … `185.199.111.153`), then confirm the site resolves over HTTPS.
-5. `chengyoung.com` stays on GitHub Pages (overseas) with **no ICP filing**. If the project is later incorporated, a separate `chengyoung.cn` site would be created independently.
+5. `chengyoung.com` is hosted on GitHub Pages.

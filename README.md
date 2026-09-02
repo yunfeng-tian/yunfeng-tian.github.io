@@ -1,6 +1,6 @@
 # LicenseDesktop Website
 
-Minimal English marketing site for [LicenseDesktop — Offline License Management System](https://chengyoung.com), hosted on GitHub Pages.
+Bilingual marketing site for [LicenseDesktop — Offline License Management System](https://chengyoung.com): English at the site root and Simplified Chinese under `/zh/`, hosted on GitHub Pages.
 
 > Status: minimal set for **Creem account review** (2026-08-31). Aligned with `docs/合规路径-1.0.md` + `docs/建站部署指南.md` + `docs/施工蓝图-50-建站与Creem过审.md`.
 
@@ -20,6 +20,7 @@ Minimal English marketing site for [LicenseDesktop — Offline License Managemen
 | `CNAME` | Custom domain `chengyoung.com` |
 | `robots.txt` / `sitemap.xml` | SEO |
 | `404.html` | Not-found page |
+| `zh/` | Simplified Chinese mirror — `index / pricing / download / privacy / terms / faq / contact` |
 
 ## Status
 
@@ -29,6 +30,7 @@ Minimal English marketing site for [LicenseDesktop — Offline License Managemen
   the two buttons to the real GitHub Releases URL and fill `resources/update.config.json`
   `manual_download_url` with the same download location.
 - Product screenshots: **in place** (`main.png`, `licenses.png`, `purchase.png`).
+- Chinese site: **live** at `/zh/` — all 7 pages in Simplified Chinese, with `hreflang` alternates and a language switcher (中文 / English) in the nav on every page.
 
 ## Screenshots (how to take)
 
@@ -39,4 +41,4 @@ Minimal English marketing site for [LicenseDesktop — Offline License Managemen
 
 ## Deploy steps
 
-See `../docs/建站部署指南.md` §3-§5 (GitHub Pages + DNS + email). Upload all files to the **repo root of `yunfeng-tian/yunfeng-tian.github.io`** (user homepage repo, already created). Keep the site on GitHub Pages (overseas) until the ICP filing is approved; keep the main domain on mainland servers after filing + show the ICP number in the footer.
+See `../docs/建站部署指南.md` §3-§5 (GitHub Pages + DNS + email). Upload all files to the **repo root of `yunfeng-tian/yunfeng-tian.github.io`** (user homepage repo, already created). `chengyoung.com` stays on GitHub Pages (overseas) with **no ICP filing**; if the project is later incorporated, a separate `chengyoung.cn` site would be created independently (see `../docs/官网优化方案-v1.1.md`).

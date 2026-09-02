@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>常见问题 — LicenseDesktop</title>
+  <meta name="description" content="关于 LicenseDesktop 的常见问题：离线签名、平台支持、授权迁移、定价与源码。" />
+  <link rel="canonical" href="https://chengyoung.com/zh/faq.html" />
+  <link rel="alternate" hreflang="en" href="https://chengyoung.com/faq.html" />
+  <link rel="alternate" hreflang="zh-CN" href="https://chengyoung.com/zh/faq.html" />
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ChengYoung · LicenseDesktop" />
+  <meta property="og:title" content="常见问题 — LicenseDesktop" />
+  <meta property="og:description" content="关于 LicenseDesktop 的常见问题。" />
+  <meta property="og:url" content="https://chengyoung.com/zh/faq.html" />
+  <meta property="og:image" content="https://chengyoung.com/assets/img/screenshots/main.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="常见问题 — LicenseDesktop" />
+  <meta name="twitter:description" content="关于 LicenseDesktop 的常见问题。" />
+  <meta name="twitter:image" content="https://chengyoung.com/assets/img/screenshots/main.png" />
+  <link rel="stylesheet" href="../assets/site.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">ChengYoung · LicenseDesktop</a>
+      <nav class="nav-links">
+        <a href="index.html">首页</a>
+        <a href="pricing.html">定价</a>
+        <a href="download.html">下载</a>
+        <a href="faq.html">常见问题</a>
+        <a href="contact.html">联系我们</a>
+        <a href="privacy.html">隐私政策</a>
+        <a href="terms.html">服务条款</a>
+        <a href="../index.html" lang="en" class="lang">English</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container legal">
+    <section class="section">
+      <h1>常见问题</h1>
+      <p class="updated">关于 LicenseDesktop 的常见问题解答。</p>
+
+      <h2>1. 离线签名如何保证我的密钥安全？</h2>
+      <p>激活码使用非对称（RSA/JWT）签名在您的机器上本地签名。您的私有签名密钥绝不会离开您的电脑——没有密钥托管，也不依赖云。</p>
+
+      <h2>2. 支持哪些平台与技术？</h2>
+      <p>LicenseDesktop 当前支持 <strong>Windows 10 / 11（x64）</strong>。基于 <strong>Electron、React 与 TypeScript</strong> 构建。跨平台支持规划中。</p>
+
+      <h2>3. 电脑坏了，授权可以迁移吗？</h2>
+      <p>可以。使用内置的备份与恢复功能将数据（含已签发激活码）迁移到新机器。恢复前以 SHA-256 校验备份。</p>
+
+      <h2>4. 定价是一次性买断还是订阅？</h2>
+      <p>授权为年费订阅——基础版 $49、专业版 $99、企业版 $149/年（每个为 12 个月授权）。<strong>1 授权月 = 30 天。</strong>授权有时限而非永久，到期可续费。</p>
+
+      <h2>5. 是否提供源码？</h2>
+      <p>不提供完整源码。我们提供离线授权验证 SDK / 集成包，供您在自有软件中验证激活码。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 ChengYoung。LicenseDesktop 是一个独立开发者项目。</div>
+      <div class="footer-links">
+        <a href="privacy.html">隐私政策</a>
+        <a href="terms.html">服务条款</a>
+        <a href="contact.html">联系我们</a>
+        <span>支持邮箱：</span>
+        <a href="mailto:support@chengyoung.com">support@chengyoung.com</a>
+      </div>
+    </div>
+    <div class="container" style="margin-top:14px; font-size:13px; opacity:0.85;">
+      授权为年度订阅 · 1 授权月 = 30 天
+    </div>
+  </footer>
+
+</body>
+</html>

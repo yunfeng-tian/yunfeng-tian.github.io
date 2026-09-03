@@ -51,6 +51,7 @@
         <li><strong>订单邮箱地址</strong>——购买授权时您提供，用于交付激活码与收据。</li>
         <li><strong>机器码</strong>——软件生成的设备标识符，仅用于将激活码绑定到一台机器（授权激活）。</li>
         <li><strong>本地日志与诊断</strong>——软件在本地保留日志文件（应用事件、错误/警告、版本/构建信息）用于诊断与修复问题。日志存储在本机，<strong>默认不上传</strong>。仅当您主动分享（例如联系支持时导出日志）时才会离开设备。日志内容已脱敏：不含您的个人文件、激活码或账号密码。</li>
+        <li><strong>匿名访问统计</strong>——网站使用 GoatCounter 统计页面浏览与访客（国家/地区、来源、页面）。统计为聚合且匿名：无 cookie、不存 IP、不含个人数据；可使用浏览器隐私/广告拦截工具屏蔽。</li>
       </ul>
       <p>我们<strong>不</strong>收集银行卡号、银行信息或其他财务信息。支付完全由我们的支付服务商处理（见下文）。</p>
 
@@ -59,6 +60,7 @@
         <li><strong>Creem（商户记录方）</strong>——处理支付、收取相应 VAT/GST/销售税并负责结账。Creem 对您数据的处理受其自身隐私政策约束。</li>
         <li><strong>GitHub</strong>——托管本网站（GitHub Pages）与软件发布（GitHub Releases）。这些服务适用 GitHub 的条款。</li>
         <li><strong>云服务</strong>——可选的更新/备份功能可能使用云存储；仅限于软件更新元数据与您明确启用的加密备份。</li>
+        <li><strong>GoatCounter</strong>——网站匿名访问统计（浏览量、国家/地区、来源）。无 cookie、不含个人数据；统计为聚合数据，浏览器广告/统计拦截工具可屏蔽。</li>
       </ul>
 
       <h2>3. 我们如何使用信息</h2>
@@ -72,7 +74,7 @@
 
       <h2>4. 数据保留与安全</h2>
       <p>我们仅在授权、支持与法律/税务合规所需期间保留订单记录。授权签名密钥的访问受保护，签名在您自己的机器上进行。授权密钥不会发送到我们的服务器。</p>
-      <p>本地日志文件仅在诊断所需期间保留并自动轮换；您可以随时通过清除应用数据删除。若我们将来引入自动崩溃/错误上报，会先更新本政策并在需要时征得同意。</p>
+      <p>本地日志文件仅在诊断所需期间保留并自动轮换；您可以随时通过清除应用数据删除。若您在应用内启用<strong>更新统计</strong>（默认关闭），我们会接收匿名更新报告（仅应用版本与更新结果，不含个人数据）以改进更新可靠性；您可随时关闭。若我们将来引入自动崩溃/错误上报，会先更新本政策并在需要时征得同意。</p>
 
       <h2>5. 你的选择</h2>
       <p>您可以联系我们请求访问、更正或删除我们持有的您的个人信息，受适用法律与我们的记录义务约束。您也可以随时删除本机存储的本地日志。</p>
@@ -89,6 +91,7 @@
     <div class="container footer-inner">
       <div>© 2026 ChengYoung。LicenseDesktop 是一个独立开发者项目。</div>
       <div class="footer-links">
+        <a href="changelog.html">更新日志</a>
         <a href="privacy.html">隐私政策</a>
         <a href="terms.html">服务条款</a>
         <a href="contact.html">联系我们</a>
@@ -101,5 +104,8 @@
     </div>
   </footer>
 
+  <!-- GoatCounter 匿名訪問統計（chengyoung.com，無 cookie、無個人資料） -->
+  <script data-goatcounter="https://chengyoung.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

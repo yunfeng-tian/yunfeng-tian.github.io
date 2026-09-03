@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Changelog — LicenseDesktop</title>
+  <meta name="description" content="LicenseDesktop release notes and update history." />
+  <link rel="canonical" href="https://chengyoung.com/changelog.html" />
+  <link rel="alternate" hreflang="en" href="https://chengyoung.com/changelog.html" />
+  <link rel="alternate" hreflang="zh-CN" href="https://chengyoung.com/zh/changelog.html" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ChengYoung · LicenseDesktop" />
+  <meta property="og:title" content="Changelog — LicenseDesktop" />
+  <meta property="og:description" content="LicenseDesktop release notes and update history." />
+  <meta property="og:url" content="https://chengyoung.com/changelog.html" />
+  <meta property="og:image" content="https://chengyoung.com/assets/img/screenshots/main.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Changelog — LicenseDesktop" />
+  <meta name="twitter:description" content="LicenseDesktop release notes and update history." />
+  <meta name="twitter:image" content="https://chengyoung.com/assets/img/screenshots/main.png" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">ChengYoung · LicenseDesktop</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="download.html">Download</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="zh/index.html" lang="zh-CN" class="lang">中文</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container legal">
+    <section class="section">
+      <h1>Changelog</h1>
+      <p class="updated">Last updated: 2026-09-02</p>
+
+      <h2>[1.0.0] — First public release</h2>
+      <blockquote>LicenseDesktop's first public release for Windows 10/11 (x64).</blockquote>
+      <ul>
+        <li><strong>100% offline license signing</strong> — master keys never leave your machine; activation codes are signed locally with RSA/JWT.</li>
+        <li><strong>Tiered editions</strong> — Basic / Professional / Enterprise with per-feature gating.</li>
+        <li><strong>Complete license lifecycle</strong> — issue, verify, extend, re-key, revoke, trial and expiry downgrade.</li>
+        <li><strong>Dual-role architecture</strong> — a Central edition for your own operations and a Publisher edition delivered to customers.</li>
+        <li><strong>Online purchase loop</strong> — domestic Alipay (CNY) and overseas Creem (USD); prices are configuration-driven (COS <code>pricing.json</code>).</li>
+        <li><strong>Trial &amp; lock</strong> — a 14-day full-feature trial; on expiry the UI locks to read-only (data stays viewable, exportable and backable-up).</li>
+        <li><strong>Auto updates</strong> — CDN dual-channel with version gating and security-update semantics (patch updates not restricted by maintenance).</li>
+        <li><strong>Automatic backups</strong> — local rolling backups + optional encrypted off-site copies (COS) and restore from cloud.</li>
+        <li><strong>i18n &amp; multi-product</strong> — Simplified Chinese / Traditional Chinese / English; issue licenses for multiple products from one Central edition.</li>
+        <li><strong>Refund policy</strong> — digital goods: refund within 7 days if not activated (policy varies by currency).</li>
+      </ul>
+
+      <p style="margin-top:24px;">Release notes for future versions will be added here on each release.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2026 ChengYoung. LicenseDesktop is an independent developer project.</div>
+      <div class="footer-links">
+        <a href="changelog.html">Changelog</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="contact.html">Contact</a>
+        <span>Support:</span>
+        <a href="mailto:support@chengyoung.com">support@chengyoung.com</a>
+      </div>
+    </div>
+    <div class="container" style="margin-top:14px; font-size:13px; opacity:0.85;">
+      Licenses are annual subscriptions &middot; 1 authorization month = 30 days.
+    </div>
+  </footer>
+
+  <!-- GoatCounter 匿名访问统计（chengyoung.com，无 cookie、无个人数据） -->
+  <script data-goatcounter="https://chengyoung.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

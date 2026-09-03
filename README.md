@@ -12,6 +12,7 @@ Bilingual marketing site for [LicenseDesktop — Offline License Management Syst
 | `pricing.html` | USD pricing (Basic $49 / Professional $99 / Enterprise $149, M12) with real Creem checkout links |
 | `privacy.html` | Privacy Policy |
 | `terms.html` | Terms of Service / software license terms |
+| `changelog.html` | Release notes / update history (`[1.0.0]` first release) |
 | `download.html` | Windows download (GitHub Releases; "coming soon" until first public release) |
 | `faq.html` | Frequently asked questions |
 | `contact.html` | Contact (email support) |
@@ -20,7 +21,7 @@ Bilingual marketing site for [LicenseDesktop — Offline License Management Syst
 | `CNAME` | Custom domain `chengyoung.com` |
 | `robots.txt` / `sitemap.xml` | SEO |
 | `404.html` | Not-found page |
-| `zh/` | Simplified Chinese mirror — `index / pricing / download / privacy / terms / faq / contact` |
+| `zh/` | Simplified Chinese mirror — `index / pricing / download / privacy / terms / faq / contact / changelog` |
 
 ## Status
 
